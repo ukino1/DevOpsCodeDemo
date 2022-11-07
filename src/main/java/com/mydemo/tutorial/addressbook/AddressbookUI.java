@@ -44,7 +44,7 @@ public class AddressbookUI extends UI {
     ContactForm contactForm = new ContactForm();
 
     // ContactService is a in-memory mock DAO that mimics
-    // a real-world datasource. Typically implemented for
+    // a real-world datasource. Typically implemented for many instances at theITern
     // example as EJB or Spring Data based service.
     ContactService service = ContactService.createDemoService();
 
