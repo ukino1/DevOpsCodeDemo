@@ -112,7 +112,7 @@ public class AddressbookUI extends UI {
         mainLayout.setSizeFull();
         mainLayout.setExpandRatio(left, 1);
 
-        // Split and allow resizing
+        // Split and allow resizing of the rows
         setContent(mainLayout);
     }
 
