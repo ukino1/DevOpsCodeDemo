@@ -36,6 +36,7 @@ pipeline{
               }
           }
            } 
+	
           stage('Package'){
 	      agent { label 'jenkins_slave1'}
               steps{ 
