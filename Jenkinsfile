@@ -28,6 +28,7 @@ pipeline{
                   sh 'mvn pmd:pmd'
               }
           }
+	      agent { label 'jenkins_slave2'}
            stage('UnitTest'){
 		  
               steps{
