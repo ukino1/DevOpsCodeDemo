@@ -31,7 +31,7 @@ pipeline{
            stage('UnitTest'){
               agent { label 'jenkins_slave1'}		  
               steps{
-	         echo 'Testing..'
+	         echo 'Testing...'
                   sh 'mvn test'
               }
           }
