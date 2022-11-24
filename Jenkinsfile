@@ -36,10 +36,10 @@ pipeline{
               }
           }
            } 	
-	      stage('Package'){
+	    stage('Package'){
 	      agent { label 'jenkins_slave1'}
               steps{ 
                   sh 'mvn package'
               }
           }            
-      }
+}
