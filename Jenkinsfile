@@ -10,7 +10,7 @@ pipeline{
             agent any
                steps{
 		 echo 'cloning..'
-                 git 'https://github.com/ukino1/DevOpsCodeDemo.git'
+                 git 'https://github.com/ukino1/DevOpsCodeDemo.gi'
               }
           }
           stage('Compile'){
