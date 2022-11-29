@@ -21,7 +21,7 @@ pipeline{
 	      }
           }
           stage('CodeReview'){
-            agent { label 'jenkins_slave2'}
+            agent { label 'jenkins_slave1'}
               steps{
 		    
 		  echo 'codeReview'
@@ -29,7 +29,7 @@ pipeline{
               }
           }
            stage('UnitTest'){
-            agent { label 'jenkins_slave1'}
+            agent { label 'jenkins_slave2'}
               steps{
                 echo 'Testing'
                   sh 'mvn test'
