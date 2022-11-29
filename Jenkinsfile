@@ -21,7 +21,7 @@ pipeline{
 	      }
           }
           stage('CodeReview'){
-            agent { label 'jenkins_slave1'}
+            agent { label 'jenkins_slave2'}
               steps{
 		    
 		  echo 'codeReview'
